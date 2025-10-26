@@ -2,3 +2,41 @@ venv
 venv-8
 venv-7
 .venv
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+venv-*/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Models and large artifacts
+*.pkl
+*.joblib
+*.h5
+models/
+anomaly_detection/*.pkl
+clustering/*.pkl
+multiclass/*.pkl
+regression/*.pkl
+time_series/*.pkl
+
+# Data cache/temp (keep your curated CSVs versioned)
+# data/**/tmp/
+# cache/
