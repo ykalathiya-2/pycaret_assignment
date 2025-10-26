@@ -300,14 +300,3 @@ This project is for educational use. Datasets and code are used for learning pur
 GitHub: [@ykalathiya-2](https://github.com/ykalathiya-2)
 
 ---
-
-## 🙏 Acknowledgments
-
-- **PyCaret Team** for the excellent low-code ML library
-- **Kaggle** for datasets and community notebooks
-- **PES University** for the Delhi Climate dataset
-- **Open-source community** for tools and tutorials
-
----
-
-**⭐ If you found this repository helpful, please consider giving it a star!**
