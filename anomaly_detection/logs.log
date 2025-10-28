@@ -1,0 +1,297 @@
+2025-10-27 23:40:40,177:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-10-27 23:40:40,177:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-10-27 23:40:40,177:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-10-27 23:40:40,177:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-10-27 23:40:40,979:INFO:PyCaret AnomalyExperiment
+2025-10-27 23:40:40,979:INFO:Logging name: anomaly-default-name
+2025-10-27 23:40:40,979:INFO:ML Usecase: MLUsecase.ANOMALY
+2025-10-27 23:40:40,979:INFO:version 3.3.2
+2025-10-27 23:40:40,979:INFO:Initializing setup()
+2025-10-27 23:40:40,979:INFO:self.USI: 0b08
+2025-10-27 23:40:40,979:INFO:self._variable_keys: {'USI', 'gpu_param', 'X', 'gpu_n_jobs_param', 'memory', 'exp_name_log', '_ml_usecase', 'idx', 'n_jobs_param', 'log_plots_param', 'pipeline', 'logging_param', 'seed', 'exp_id', 'html_param', 'data', '_available_plots'}
+2025-10-27 23:40:40,979:INFO:Checking environment
+2025-10-27 23:40:40,979:INFO:python_version: 3.11.14
+2025-10-27 23:40:40,979:INFO:python_build: ('main', 'Oct 24 2025 09:18:30')
+2025-10-27 23:40:40,979:INFO:machine: x86_64
+2025-10-27 23:40:40,979:INFO:platform: Linux-6.17.5-arch1-1-x86_64-with-glibc2.42
+2025-10-27 23:40:40,979:INFO:Memory: svmem(total=16364691456, available=8168456192, percent=50.1, used=8196235264, free=3205439488, active=7277461504, inactive=2802307072, buffers=3334144, cached=7408455680, shared=2095775744, slab=713728000)
+2025-10-27 23:40:40,980:INFO:Physical Core: 12
+2025-10-27 23:40:40,980:INFO:Logical Core: 16
+2025-10-27 23:40:40,980:INFO:Checking libraries
+2025-10-27 23:40:40,980:INFO:System:
+2025-10-27 23:40:40,980:INFO:    python: 3.11.14 (main, Oct 24 2025, 09:18:30) [GCC 15.2.1 20250813]
+2025-10-27 23:40:40,980:INFO:executable: /home/ykalathiya/pycaret_assignment/.venv/bin/python
+2025-10-27 23:40:40,980:INFO:   machine: Linux-6.17.5-arch1-1-x86_64-with-glibc2.42
+2025-10-27 23:40:40,980:INFO:PyCaret required dependencies:
+2025-10-27 23:40:41,024:INFO:                 pip: 25.2
+2025-10-27 23:40:41,024:INFO:          setuptools: 80.9.0
+2025-10-27 23:40:41,024:INFO:             pycaret: 3.3.2
+2025-10-27 23:40:41,024:INFO:             IPython: 9.6.0
+2025-10-27 23:40:41,024:INFO:          ipywidgets: 8.1.7
+2025-10-27 23:40:41,024:INFO:                tqdm: 4.67.1
+2025-10-27 23:40:41,024:INFO:               numpy: 1.26.4
+2025-10-27 23:40:41,024:INFO:              pandas: 2.1.4
+2025-10-27 23:40:41,024:INFO:              jinja2: 3.1.6
+2025-10-27 23:40:41,024:INFO:               scipy: 1.11.4
+2025-10-27 23:40:41,024:INFO:              joblib: 1.3.2
+2025-10-27 23:40:41,024:INFO:             sklearn: 1.4.2
+2025-10-27 23:40:41,024:INFO:                pyod: 2.0.5
+2025-10-27 23:40:41,024:INFO:            imblearn: 0.14.0
+2025-10-27 23:40:41,024:INFO:   category_encoders: 2.7.0
+2025-10-27 23:40:41,024:INFO:            lightgbm: 4.6.0
+2025-10-27 23:40:41,024:INFO:               numba: 0.61.0
+2025-10-27 23:40:41,024:INFO:            requests: 2.32.5
+2025-10-27 23:40:41,024:INFO:          matplotlib: 3.7.5
+2025-10-27 23:40:41,024:INFO:          scikitplot: 0.3.7
+2025-10-27 23:40:41,024:INFO:         yellowbrick: 1.5
+2025-10-27 23:40:41,024:INFO:              plotly: 5.24.1
+2025-10-27 23:40:41,024:INFO:    plotly-resampler: Not installed
+2025-10-27 23:40:41,024:INFO:             kaleido: 1.1.0
+2025-10-27 23:40:41,024:INFO:           schemdraw: 0.15
+2025-10-27 23:40:41,024:INFO:         statsmodels: 0.14.5
+2025-10-27 23:40:41,024:INFO:              sktime: 0.26.0
+2025-10-27 23:40:41,024:INFO:               tbats: 1.1.3
+2025-10-27 23:40:41,024:INFO:            pmdarima: 2.0.4
+2025-10-27 23:40:41,024:INFO:              psutil: 7.1.1
+2025-10-27 23:40:41,024:INFO:          markupsafe: 3.0.3
+2025-10-27 23:40:41,024:INFO:             pickle5: Not installed
+2025-10-27 23:40:41,024:INFO:         cloudpickle: 3.1.1
+2025-10-27 23:40:41,024:INFO:         deprecation: 2.1.0
+2025-10-27 23:40:41,024:INFO:              xxhash: 3.6.0
+2025-10-27 23:40:41,024:INFO:           wurlitzer: 3.1.1
+2025-10-27 23:40:41,024:INFO:PyCaret optional dependencies:
+2025-10-27 23:40:42,829:INFO:                shap: 0.44.1
+2025-10-27 23:40:42,829:INFO:           interpret: 0.7.3
+2025-10-27 23:40:42,829:INFO:                umap: 0.5.7
+2025-10-27 23:40:42,829:INFO:     ydata_profiling: 4.17.0
+2025-10-27 23:40:42,829:INFO:  explainerdashboard: 0.5.1
+2025-10-27 23:40:42,829:INFO:             autoviz: Not installed
+2025-10-27 23:40:42,829:INFO:           fairlearn: 0.7.0
+2025-10-27 23:40:42,829:INFO:          deepchecks: Not installed
+2025-10-27 23:40:42,829:INFO:             xgboost: Not installed
+2025-10-27 23:40:42,829:INFO:            catboost: Not installed
+2025-10-27 23:40:42,829:INFO:              kmodes: Not installed
+2025-10-27 23:40:42,829:INFO:             mlxtend: Not installed
+2025-10-27 23:40:42,829:INFO:       statsforecast: Not installed
+2025-10-27 23:40:42,829:INFO:        tune_sklearn: Not installed
+2025-10-27 23:40:42,829:INFO:                 ray: Not installed
+2025-10-27 23:40:42,829:INFO:            hyperopt: Not installed
+2025-10-27 23:40:42,829:INFO:              optuna: Not installed
+2025-10-27 23:40:42,829:INFO:               skopt: Not installed
+2025-10-27 23:40:42,829:INFO:              mlflow: 3.5.1
+2025-10-27 23:40:42,829:INFO:              gradio: 5.49.1
+2025-10-27 23:40:42,829:INFO:             fastapi: 0.120.0
+2025-10-27 23:40:42,829:INFO:             uvicorn: 0.38.0
+2025-10-27 23:40:42,829:INFO:              m2cgen: 0.10.0
+2025-10-27 23:40:42,829:INFO:           evidently: 0.4.40
+2025-10-27 23:40:42,829:INFO:               fugue: Not installed
+2025-10-27 23:40:42,829:INFO:           streamlit: Not installed
+2025-10-27 23:40:42,829:INFO:             prophet: Not installed
+2025-10-27 23:40:42,829:INFO:None
+2025-10-27 23:40:42,829:INFO:Set up data.
+2025-10-27 23:40:42,836:INFO:Set up index.
+2025-10-27 23:40:42,837:INFO:Assigning column types.
+2025-10-27 23:40:42,838:INFO:Engine successfully changes for model 'kmeans' to 'sklearn'.
+2025-10-27 23:40:42,846:INFO:Engine successfully changes for model 'dbscan' to 'sklearn'.
+2025-10-27 23:40:42,847:INFO:Preparing preprocessing pipeline...
+2025-10-27 23:40:42,847:INFO:Set up simple imputation.
+2025-10-27 23:40:42,848:INFO:Set up encoding of ordinal features.
+2025-10-27 23:40:42,849:INFO:Set up encoding of categorical features.
+2025-10-27 23:40:42,849:INFO:Set up feature normalization.
+2025-10-27 23:40:45,220:WARNING:/home/ykalathiya/pycaret_assignment/.venv/lib/python3.11/site-packages/pycaret/internal/pipeline.py:249: UserWarning: Persisting input arguments took 0.54s to run.If this happens often in your code, it can cause performance problems (results will be correct in all cases). The reason for this is probably some large input arguments for a wrapped function.
+
+2025-10-27 23:40:47,410:INFO:Finished creating preprocessing pipeline.
+2025-10-27 23:40:47,421:INFO:Pipeline: Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['TransactionAmount', 'CustomerAge',
+                                             'TransactionDuration',
+                                             'LoginAttempts',
+                                             'AccountBalance'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['TransactionID', 'AccountID',
+                                             'TransactionDate',
+                                             'TransactionType', 'Location'...
+                                             'MerchantID', 'Channel',
+                                             'CustomerOccupation',
+                                             'PreviousTransactionDate'],
+                                    transformer=OneHotEncoder(cols=['TransactionID',
+                                                                    'AccountID',
+                                                                    'TransactionDate',
+                                                                    'Location',
+                                                                    'DeviceID',
+                                                                    'IP '
+                                                                    'Address',
+                                                                    'MerchantID',
+                                                                    'Channel',
+                                                                    'CustomerOccupation',
+                                                                    'PreviousTransactionDate'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize',
+                 TransformerWrapper(transformer=StandardScaler()))])
+2025-10-27 23:40:47,421:INFO:Creating final display dataframe.
+2025-10-27 23:40:49,413:WARNING:/home/ykalathiya/pycaret_assignment/.venv/lib/python3.11/site-packages/pycaret/internal/pipeline.py:289: UserWarning: Persisting input arguments took 0.60s to run.If this happens often in your code, it can cause performance problems (results will be correct in all cases). The reason for this is probably some large input arguments for a wrapped function.
+
+2025-10-27 23:40:49,416:INFO:Setup _display_container:                  Description                 Value
+0                 Session id                   123
+1        Original data shape            (2512, 16)
+2     Transformed data shape          (2512, 7308)
+3           Numeric features                     5
+4       Categorical features                    11
+5                 Preprocess                  True
+6            Imputation type                simple
+7         Numeric imputation                  mean
+8     Categorical imputation                  mode
+9   Maximum one-hot encoding                    -1
+10           Encoding method                  None
+11                 Normalize                  True
+12          Normalize method                zscore
+13                  CPU Jobs                    -1
+14                   Use GPU                 False
+15            Log Experiment                 False
+16           Experiment Name  anomaly-default-name
+17                       USI                  0b08
+2025-10-27 23:40:49,420:INFO:setup() successfully completed in 8.44s...............
+2025-10-27 23:40:49,427:INFO:Initializing create_model()
+2025-10-27 23:40:49,428:INFO:create_model(self=<pycaret.anomaly.oop.AnomalyExperiment object at 0x7effa2fad210>, estimator=knn, num_clusters=4, fraction=0.05, ground_truth=None, round=4, fit_kwargs=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, display=None, kwargs={})
+2025-10-27 23:40:49,428:INFO:Checking exceptions
+2025-10-27 23:40:49,944:INFO:Importing untrained model
+2025-10-27 23:40:49,946:INFO:K-Nearest Neighbors Detector Imported successfully
+2025-10-27 23:40:50,060:INFO:Fitting Model
+2025-10-27 23:40:54,272:INFO:KNN(algorithm='auto', contamination=0.05, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0)
+2025-10-27 23:40:54,272:INFO:create_models() successfully completed......................................
+2025-10-27 23:40:54,274:INFO:Uploading results into container
+2025-10-27 23:40:54,274:INFO:Uploading model into container now
+2025-10-27 23:40:54,275:INFO:_master_model_container: 1
+2025-10-27 23:40:54,275:INFO:_display_container: 1
+2025-10-27 23:40:54,275:INFO:KNN(algorithm='auto', contamination=0.05, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0)
+2025-10-27 23:40:54,276:INFO:create_model() successfully completed......................................
+2025-10-27 23:40:54,404:INFO:Initializing evaluate_model()
+2025-10-27 23:40:54,404:INFO:evaluate_model(self=<pycaret.anomaly.oop.AnomalyExperiment object at 0x7effa2fad210>, estimator=KNN(algorithm='auto', contamination=0.05, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None)
+2025-10-27 23:40:54,408:INFO:Initializing plot_model()
+2025-10-27 23:40:54,408:INFO:plot_model(self=<pycaret.anomaly.oop.AnomalyExperiment object at 0x7effa2fad210>, estimator=KNN(algorithm='auto', contamination=0.05, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0), plot=pipeline, scale=1, save=False, fold=None, fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2025-10-27 23:40:54,408:INFO:Checking exceptions
+2025-10-27 23:40:54,409:INFO:Preloading libraries
+2025-10-27 23:40:54,460:INFO:Copying training dataset
+2025-10-27 23:40:54,460:INFO:Plot type: pipeline
+2025-10-27 23:40:54,607:INFO:Visual Rendered Successfully
+2025-10-27 23:40:54,727:INFO:plot_model() successfully completed......................................
+2025-10-27 23:40:54,745:INFO:Initializing assign_model()
+2025-10-27 23:40:54,745:INFO:assign_model(self=<pycaret.anomaly.oop.AnomalyExperiment object at 0x7effa2fad210>, model=KNN(algorithm='auto', contamination=0.05, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0), transformation=False, score=True, verbose=True)
+2025-10-27 23:40:54,746:INFO:Checking exceptions
+2025-10-27 23:40:54,746:INFO:Determining Trained Model
+2025-10-27 23:40:54,746:INFO:Trained Model : K-Nearest Neighbors Detector
+2025-10-27 23:40:54,746:INFO:Copying data
+2025-10-27 23:40:54,748:INFO:(2512, 18)
+2025-10-27 23:40:54,749:INFO:assign_model() successfully completed......................................
+2025-10-27 23:40:54,795:INFO:Initializing plot_model()
+2025-10-27 23:40:54,795:INFO:plot_model(self=<pycaret.anomaly.oop.AnomalyExperiment object at 0x7effa2fad210>, estimator=KNN(algorithm='auto', contamination=0.05, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0), plot=umap, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2025-10-27 23:40:54,796:INFO:Checking exceptions
+2025-10-27 23:40:54,797:INFO:Preloading libraries
+2025-10-27 23:40:54,853:INFO:Copying training dataset
+2025-10-27 23:40:54,853:INFO:Plot type: umap
+2025-10-27 23:40:54,854:INFO:SubProcess assign_model() called ==================================
+2025-10-27 23:40:54,854:INFO:Initializing assign_model()
+2025-10-27 23:40:54,854:INFO:assign_model(self=<pycaret.anomaly.oop.AnomalyExperiment object at 0x7effa2fad210>, model=KNN(algorithm='auto', contamination=0.05, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0), transformation=True, score=False, verbose=False)
+2025-10-27 23:40:54,854:INFO:Checking exceptions
+2025-10-27 23:40:54,854:INFO:Determining Trained Model
+2025-10-27 23:40:54,854:INFO:Trained Model : K-Nearest Neighbors Detector
+2025-10-27 23:40:54,854:INFO:Copying data
+2025-10-27 23:40:55,373:INFO:Transformation parameter set to True. Assigned clusters are attached on transformed dataset.
+2025-10-27 23:40:55,374:INFO:(2512, 7309)
+2025-10-27 23:40:55,374:INFO:assign_model() successfully completed......................................
+2025-10-27 23:40:55,398:INFO:SubProcess assign_model() end ==================================
+2025-10-27 23:40:55,469:INFO:Soft dependency imported: umap: 0.5.7
+2025-10-27 23:40:57,742:INFO:Fitting UMAP()
+2025-10-27 23:41:11,984:INFO:Rendering Visual
+2025-10-27 23:41:12,075:WARNING:/home/ykalathiya/pycaret_assignment/.venv/lib/python3.11/site-packages/kaleido/_sync_server.py:11: UserWarning:
+
+
+
+Warning: You have Plotly version 5.24.1, which is not compatible with this version of Kaleido (1.1.0).
+
+This means that static image generation (e.g. `fig.write_image()`) will not work.
+
+Please upgrade Plotly to version 6.1.1 or greater, or downgrade Kaleido to version 0.2.1.
+
+
+
+2025-10-27 23:41:12,124:INFO:Visual Rendered Successfully
+2025-10-27 23:41:12,294:INFO:plot_model() successfully completed......................................
+2025-10-27 23:41:12,500:INFO:Initializing save_model()
+2025-10-27 23:41:12,500:INFO:save_model(model=KNN(algorithm='auto', contamination=0.05, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0), model_name=best_anomaly_model, prep_pipe_=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['TransactionAmount', 'CustomerAge',
+                                             'TransactionDuration',
+                                             'LoginAttempts',
+                                             'AccountBalance'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['TransactionID', 'AccountID',
+                                             'TransactionDate',
+                                             'TransactionType', 'Location'...
+                                             'MerchantID', 'Channel',
+                                             'CustomerOccupation',
+                                             'PreviousTransactionDate'],
+                                    transformer=OneHotEncoder(cols=['TransactionID',
+                                                                    'AccountID',
+                                                                    'TransactionDate',
+                                                                    'Location',
+                                                                    'DeviceID',
+                                                                    'IP '
+                                                                    'Address',
+                                                                    'MerchantID',
+                                                                    'Channel',
+                                                                    'CustomerOccupation',
+                                                                    'PreviousTransactionDate'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize',
+                 TransformerWrapper(transformer=StandardScaler()))]), verbose=True, use_case=MLUsecase.ANOMALY, kwargs={})
+2025-10-27 23:41:12,500:INFO:Adding model into prep_pipe
+2025-10-27 23:41:12,793:INFO:best_anomaly_model.pkl saved in current working directory
+2025-10-27 23:41:12,803:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['TransactionAmount', 'CustomerAge',
+                                             'TransactionDuration',
+                                             'LoginAttempts',
+                                             'AccountBalance'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['TransactionID', 'AccountID',
+                                             'TransactionDate',
+                                             'TransactionType', 'Location',
+                                             'DeviceID'...
+                                                                    'MerchantID',
+                                                                    'Channel',
+                                                                    'CustomerOccupation',
+                                                                    'PreviousTransactionDate'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 KNN(algorithm='auto', contamination=0.05, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0))])
+2025-10-27 23:41:12,803:INFO:save_model() successfully completed......................................
